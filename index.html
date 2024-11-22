@@ -1,58 +1,66 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Portafolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Header -->
   <header>
     <nav>
-      <h1>Tu Nombre</h1>
+      <h1>Mi Portafolio</h1>
       <ul>
-        <li><a href="#sobre-mi">Sobre Mí</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#portfolio">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Sección: Sobre mí -->
-  <section id="sobre-mi">
-    <h2>Sobre Mí</h2>
-    <p>Soy un desarrollador web apasionado por crear soluciones innovadoras. Tengo experiencia en HTML, CSS, JavaScript, y frameworks como React.</p>
+  <section id="home" class="section">
+    <h2>¡Hola! Soy [Tu Nombre]</h2>
+    <p>Desarrollador web apasionado por la creación de proyectos increíbles.</p>
+    <a href="#portfolio" class="button">Ver mi trabajo</a>
   </section>
 
-  <!-- Sección: Proyectos -->
-  <section id="proyectos">
+  <section id="about" class="section">
+    <h2>Sobre mí</h2>
+    <p>Un breve resumen de tu experiencia, habilidades y lo que te motiva.</p>
+  </section>
+
+  <section id="portfolio" class="section">
     <h2>Proyectos</h2>
-    <div class="proyecto">
-      <h3>Proyecto 1</h3>
-      <p>Descripción breve del proyecto.</p>
-      <a href="#" target="_blank">Ver Proyecto</a>
-    </div>
-    
-    <div class="proyecto">
-      <h3>Proyecto 2</h3>
-      <p>Descripción breve del proyecto.</p>
-      <a href="#" target="_blank">Ver Proyecto</a>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/proyecto1.jpg" alt="Proyecto 1">
+        <h3>Proyecto 1</h3>
+        <p>Descripción breve del proyecto.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/proyecto2.jpg" alt="Proyecto 2">
+        <h3>Proyecto 2</h3>
+        <p>Descripción breve del proyecto.</p>
+      </div>
     </div>
   </section>
 
-  <!-- Sección: Contacto -->
-  <section id="contacto">
+  <section id="contact" class="section">
     <h2>Contacto</h2>
-    <p>¡Contáctame para colaborar!</p>
-    <a href="mailto:tuemail@gmail.com">tuemail@gmail.com</a>
+    <form>
+      <input type="text" name="name" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="message" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <p>© 2024 Tu Nombre. Todos los derechos reservados.</p>
+    <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
