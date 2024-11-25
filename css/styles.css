@@ -13,7 +13,7 @@ a {
 
 /* Header */
 header {
-  background-color: #FFF8E1; 
+  background-color: #63bbe7dd; 
   padding: 1rem 5%;
   position: fixed;
   top: 0;
@@ -44,7 +44,7 @@ header {
 .menu a {
   font-size: 1rem;
   font-weight: bold;
-  color: #5E548E;
+  color: #ffffff;
   position: relative;
   transition: all 0.3s ease;
   padding: 0.3rem 0.5rem;
@@ -57,7 +57,7 @@ header {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #5E548E;
+  background-color: #ffffff;
   transition: width 0.3s ease;
 }
 
@@ -76,7 +76,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 7rem 5%;
-  background-color: #FFF8E1;
+  background-color: #aadbd8;
 }
 
 .home-content {
@@ -85,8 +85,8 @@ header {
 
 .home-content h2 {
   font-size: 3.5rem; /* Ajusta tamaño para responsividad */
-  color: #FFD166 ;
-  background-color: #a3d9d6;
+  color: #2c3e50;
+  background-color: #63bbe743;
   display: inline-block;
   padding: 0.3rem 0.5rem;
   border-radius: 5px;
@@ -101,7 +101,7 @@ header {
 
 .button {
   display: inline-block;
-  background-color: #6A0572 ;
+  background-color: #2c3e50;
   color: white;
   padding: 0.7rem 1.5rem;
   text-decoration: none;
@@ -112,7 +112,7 @@ header {
 }
 
 .button:hover {
-  background-color: #6A0572;
+  background-color: #34495e;
 }
 
 .home-image {
@@ -169,7 +169,7 @@ header {
 /* Sección About */
 .about-section {
   padding: 7rem 10%;
-  background-color: #FFF8E1; /* Fondo naranja */
+  background-color: #aadbd8; /* Fondo naranja */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,14 +202,14 @@ header {
 
 .about-content h2 {
   font-size: 2rem;
-  color: #3B3B3B; /* Color para el texto */
+  color: #333333; /* Color para el texto */
   margin-bottom: 1rem;
   text-align: center;
 }
 
 .about-content p {
   font-size: 1rem;
-  color: #3B3B3B;
+  color: #333333;
   line-height: 1.8;
   text-align: justify;
 }
@@ -220,7 +220,7 @@ header {
 /* Sección Projects */
 .projects-section {
   padding: 5rem 10%;
-  background-color: #FFF8E1; /* Fondo naranja claro */
+  background-color: #aadbd8; /* Fondo naranja claro */
   text-align: center;
 }
 
@@ -293,7 +293,7 @@ header {
 }
 
 .modal-content {
-  background-color: #5E548E; /* Fondo blanco */
+  background-color: #ffffff; /* Fondo blanco */
   border-radius: 15px;
   padding: 2rem;
   width: 90%; /* Modal más amplio */
@@ -328,6 +328,15 @@ header {
 }
 
 .modal-image {
+  width: 40%; /* Imagen ocupa el 100% del ancho del modal */
+  max-width: 1000px; /* Máximo ancho basado en el diseño */
+  height: auto; /* Mantiene proporción */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+  margin: 2rem 0; /* Espaciado superior e inferior */
+}
+
+.modal-images {
   width: 70%; /* Imagen ocupa el 100% del ancho del modal */
   max-width: 1000px; /* Máximo ancho basado en el diseño */
   height: auto; /* Mantiene proporción */
@@ -345,7 +354,7 @@ header {
 
 .modal-text h3 {
   font-size: 2.2rem;
-  color: #FFD166;
+  color: #2c3e50;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -364,7 +373,7 @@ header {
 /* Sección Contacto */
 .contact-section {
   padding: 5rem 10%;
-  background-color: #FFF8E1; /* Fondo naranja */
+  background-color: #aadbd8; /* Fondo naranja */
   text-align: center;
 }
 
@@ -397,7 +406,7 @@ header {
 .contact-label {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #FFD166 ;
+  color: #2c3e50;
   margin-bottom: 0.5rem;
 }
 
@@ -421,7 +430,7 @@ header {
 
 /* Footer */
 .footer {
-  background-color: #FFF8E1; /* Fondo naranja */
+  background-color: #63bbe7dd; /* Fondo naranja */
   padding: 2rem 10%;
   text-align: center;
   color: #333; /* Texto oscuro */
@@ -434,7 +443,7 @@ header {
 }
 
 .footer-content a {
-  color: #FFD166 ; /* Color oscuro para los enlaces */
+  color: #2c3e50; /* Color oscuro para los enlaces */
   text-decoration: none;
   font-weight: bold;
 }
